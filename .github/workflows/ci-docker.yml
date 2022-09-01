@@ -48,4 +48,4 @@ jobs:
           context: .
           file: ./DockerWebApi/Dockerfile
           push: true
-          tags: ${{ secrets.DOCKERHUB_USERNAME }}/carvedrockapi:latest, ${{ secrets.DOCKERHUB_USERNAME }}/carvedrockapi:${{ github.run_number }}
+          tags: ${{ secrets.DOCKERHUB_USERNAME }}/dockerwebapi:latest, ${{ secrets.DOCKERHUB_USERNAME }}/carvedrockapi:${{ github.run_number }}
